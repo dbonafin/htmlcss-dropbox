@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 
-/* debug */
-body {
-    background-color: pink;
-}
-
 /* common */
 
 * {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400
 }
 
 .flex {
@@ -24,9 +20,30 @@ img {
     display: block;
 }
 
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 11px;
+}
+
+h2, h3, h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
 li a, a {
     text-decoration: none;
     color: black;
+}
+
+li {
+    list-style-type: none;
 }
 
 .button {
@@ -39,7 +56,6 @@ li a, a {
 }
 
 /* header */
-/* header structure */
 
 header {
     height: 50px;
@@ -72,22 +88,24 @@ nav {
     align-items: center;
 }
 
-/* header details */
-
 nav li {
     padding: 0 10px;
-    list-style-type: none;
-}
-
-.blue-btn {
-    background-color: #0061ff;
-    color: white;
 }
 
 /* main */
 
 main {
     margin-top: 50px;
+}
+
+.large-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.small-container {
+    width: 55%;
+    margin: 0 auto;
 }
 
 .blue-section {
@@ -98,11 +116,6 @@ main {
 
 /* jumbotron */
 /* jumbotron structure */
-
-.large-container {
-    width: 80%;
-    margin: 0 auto;
-}
 
 .large-col-jumbo {
     width: 66%;
@@ -129,12 +142,146 @@ h1 {
     font-weight: 600;
 }
 
-.fa-solid {
+.fa-arrow-down {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     font-size: 30px;
 }
 
+/* dropbox plan */
 
+.plans-type {
+    margin-top: 150px;
+    background-color: pink;
+}
 
+/* payment method plans */
 
+.payment-method {
+    font-size: 12px;
+}
+
+.month-payment {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.year-payment {
+    display: inline-block;
+}
+
+.blue-circle {
+    font-size: 5px;
+    color: white;
+    vertical-align: middle;
+    width: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    border: 4px solid #0061ff;
+}
+
+.white-circle {
+    font-size: 25px;
+    vertical-align: sub;
+}
+
+/* plan columns section */
+
+.columns-box {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plan-col {
+    font-size: 10px;
+    line-height: 20px;
+    width: calc(100% / 3 - 30px);
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.plan-head {
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.plan-content {
+    padding: 20px 8px;
+}
+
+.plan-price {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.gray-text {
+    color: gray;
+}
+
+/* plan details */
+
+.plan-content li {
+    margin: 10px 0;
+}
+
+.large-btn {
+    margin: 30px 0 15px;
+}
+
+.large-btn .button {
+    padding: 7px 30px;
+}
+
+.buy-underline {
+    text-decoration: underline;
+    color: blue;
+}
+
+.first-details {
+    margin-top: 30px;
+}
+
+.first-details:after {
+   content: attr('hr');
+}
+
+.first-details hr {
+    margin: 20px 0;
+    width: 40px;
+    border: 0.1px solid darkgray;
+    background-color: darkgray;
+}
+
+.second-details li::before {
+    content: '\2714';
+    color: green;
+    font-size: 10px;
+}
+
+/* enterprise team plan */
+
+.large-col {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.large-col-content {
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+
+.large-col-content .large-btn {
+    margin: 0;
+}
+
+/* dropbox partner section */
+/* 
+.partner-type {
+    margin: 30px 0;
+}
+
+.img-col {
+    width: 50%;
+} */
