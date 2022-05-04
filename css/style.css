@@ -109,7 +109,7 @@ main {
 }
 
 .small-container {
-    width: 55%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ main {
 }
 
 section {
-    margin: 30px 0;
+    margin: 60px 0;
 }
 
 /* jumbotron */
@@ -207,16 +207,16 @@ h1 {
     line-height: 20px;
     width: calc(100% / 3 - 30px);
     border: 1px solid grey;
-    background-color: white;
 }
 
 .plan-head {
     border-bottom: 1px solid grey;
     text-align: center;
+    font-size: 12px;
 }
 
 .plan-content {
-    padding: 20px 8px;
+    padding: 20px 15px;
 }
 
 .plan-price {
@@ -235,7 +235,7 @@ h1 {
 }
 
 .large-btn {
-    margin: 30px 0 15px;
+    margin: 30px 0;
 }
 
 .large-btn .button {
@@ -282,6 +282,7 @@ h1 {
 
 .large-col-content .large-btn {
     margin: 0;
+    width: 30%;
 }
 
 /* dropbox partner section */
@@ -302,4 +303,17 @@ h1 {
     width: 130px;
     border: 1px solid black;
 }
+
+/* business sectiom */
+
+.business-col {
+    margin-bottom: 40px;
+    line-height: 20px;
+    width: calc(100% / 3 - 20px);
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
 
