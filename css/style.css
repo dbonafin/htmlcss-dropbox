@@ -48,11 +48,16 @@ li {
 
 .button {
     padding: 5px 14px;
+    text-align: center;
 }
 
 .blue-btn {
     background-color: #0061ff;
     color: white;
+}
+
+p {
+    font-size: 12px;
 }
 
 /* header */
@@ -114,6 +119,10 @@ main {
     background-color: #b4d0e7;
 }
 
+section {
+    margin: 30px 0;
+}
+
 /* jumbotron */
 /* jumbotron structure */
 
@@ -152,7 +161,6 @@ h1 {
 
 .plans-type {
     margin-top: 150px;
-    background-color: pink;
 }
 
 /* payment method plans */
@@ -277,11 +285,21 @@ h1 {
 }
 
 /* dropbox partner section */
-/* 
-.partner-type {
-    margin: 30px 0;
-}
 
 .img-col {
     width: 50%;
-} */
+}
+
+.text-col {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.white-btn {
+    font-size: 12px;
+    margin-top: 20px;
+    width: 130px;
+    border: 1px solid black;
+}
+
