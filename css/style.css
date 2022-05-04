@@ -21,7 +21,7 @@ img {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 h3 {
@@ -304,16 +304,62 @@ h1 {
     border: 1px solid black;
 }
 
-/* business sectiom */
+/* business section */
 
 .business-col {
     margin-bottom: 40px;
     line-height: 20px;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 30px);
 }
 
 .underline-text {
     text-decoration: underline;
 }
+
+.companies-section {
+    width: 100%;
+}
+
+.companies-area {
+    margin-top: 50px;
+    height: 400px;
+}
+
+.company-col {
+    width: calc(100% / 3);
+
+    /* test */
+    border: 1px solid black;
+    background-color: lightpink;
+}
+
+.central-col {
+    width: 40%;
+}
+
+/* companies logos */
+
+
+.cplogo {
+    padding: 20px;
+    height: 50%;
+    width: 50%;
+    filter: invert(1);
+
+    /* test */
+}
+
+.designit {
+    background-color: #5d2c64;
+    border: 10px solid #2f1632;
+}
+
+.arizona {
+
+}
+
+
+
+
 
 
