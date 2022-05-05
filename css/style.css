@@ -465,13 +465,37 @@ h1 {
 
 /* footer */
 
-/* .black-section {
+.black-section {
     background-color: black;
-} */
+}
 
+.top-footer {
+    color: white;
+    padding-top: 60px;
+    justify-content: space-between;
+}
 
+.top-footer-col {
+    width: calc(100% / 5 - 40px);
+}
 
+.top-footer-col a {
+    font-size: 11px;
+    color: white;
+}
 
+.footer-hr {
+    margin: 40px 0;
+    width: 100px;
+}
 
+.footer-hr hr {
+    color: gray;
+    border: 1px outset gray
+}
 
-
+.bottom-footer {
+    padding-bottom: 30px;
+    font-size: 10px;
+    color: gray;
+}
